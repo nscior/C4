@@ -13,7 +13,6 @@ body {
     width: 80px;
     height: 80px;
     padding-left: 50px;
-    padding-right: 75px;
     text-align: start;
 }
 
@@ -24,11 +23,92 @@ body {
     display: flex;
     float: left;
     width: 70%;
-    justify-content: space-evenly;
     box-shadow: 0px 3px 5px lightgray;
+    padding-right: 75px;
+    justify-content: center;
 }
 
-h2 {
+.headTitle {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.mainWindow {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    float: left;
+    width: 70%;
+    height: max-content;
+    box-shadow: 0px 3px 5px lightgray;
+    justify-content: center;
     padding-left: 75px;
-    padding-right: 75px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.thumbTitle {
+    padding-left: 50px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.thumb {
+    padding: 20px;
+}
+
+.profile {
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    width: 20%;
+    height: max-content;
+    box-shadow: 0px 3px 5px lightgray;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar {
+    padding: 20px;
+    width: auto;
+    display: inline-block;
+    justify-content: center;
+}
+
+.icon {
+    width: 50%;
+}
+
+hr {
+    width: 80%;
+}
+
+.description {
+    padding: 10px 20px;
+}
+
+.btngroup {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+button {
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #C6C5FF;
+    border: 0px;
+}
+
+.subtext {
+    font-weight: bold;
+    color: #959595;
 }
